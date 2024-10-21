@@ -21,7 +21,7 @@ module.exports = {
             embed.setURL('https://discord.gg/PYtTsAfrCP')
             embed.setDescription('**Une description complète et détaillée du Bot** <@1271764496448360488>')
             embed.setColor(color)
-            .setThumbnail(message.author.avatarURL({ dynamic:true }));
+            .setThumbnail(({ dynamic:true }));
             embed.setTimestamp()
             embed.setFooter(`${client.config.name}`)
             embed.addFields(
